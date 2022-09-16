@@ -1,5 +1,67 @@
 body {
-  margin: auto;
-  padding-left: auto;
-  background-color: rgba(82, 255, 47, 0.945);
+  margin: 0;
+  padding-left: 0;
+  box-sizing: border-box;
+  background-color: #2be22e;
 }
+
+.header_container {
+  display: flex;
+  background-color: azure;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  width: 100%;
+}
+.left_header {
+  padding: 4px 10px;
+}
+.right_header {
+  display: flex;
+  gap: 5px;
+  padding: 4px 10px;
+}
+.content_container {
+  background-color: #2be22e;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.get_button {
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 6px 15px;
+  border-radius: 15px;
+}
+.footer_container {
+  background-color: azure;
+  height: 20vh;
+}
+
+/* your css */
+/* 
+.left-header {
+  background-color: aliceblue;
+  justify-content: space-between;
+  padding-left: 10px;
+}
+.right-header {
+  padding-right: 10px;
+  display: flex;
+  gap: 10px;
+}
+.content-container {
+  background-color: #2be22e;
+  height: 100vh;
+}
+.footer {
+  background-color: aliceblue;
+} */
